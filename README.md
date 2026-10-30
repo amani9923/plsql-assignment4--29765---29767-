@@ -74,3 +74,28 @@ These describe how the system should operate.
 - The database should maintain accurate records.
 - The system should handle errors appropriately.
 - The system should process large numbers of records efficiently.
+
+ PART 2: Understanding the database design
+
+ 2.1 Explanation of the relationships
+ 
+Relationship 1: Departments and Employees
+
+This is a one-to-many relationship.
+
+- One department can contain many employees.
+  
+- One employee belongs to one department.
+  
+- DepartmentID connects the two tables.
+
+
+Relationship 2: Employees and Salary History
+
+This is also a one-to-many relationship.
+
+- One employee can have many salary changes.
+  
+- Each salary history record belongs to one employee.
+  
+- EmployeeID connects the two tables.
